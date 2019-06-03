@@ -8,6 +8,12 @@ describe('Our first test', () => {
     });
 });
 
+describe('Our first test1', () => {
+    it('should pass1', () => {
+        expect(true).to.equal(true);
+    });
+});
+
 // describe('index.html', () => {
 //     it('should say hello', (done) => {
 //         const index = fs.readFileSync('./src/index.html', "utf-8");
